@@ -1,0 +1,25 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <ModName>Auto Liquid Bottler</ModName>
+    <ModDesc>A piped Liquid Bottler that gives Duplicants the ability to fetch bottled liquids from pipe for delivery to buildings.</ModDesc>
+    <ModID>Hilliurn.mod.oni.Auto_Liquid_Bottler</ModID>
+    <SupportedContent>VANILLA_ID,EXPANSION1_ID,ALL</SupportedContent>
+    <MinimumSupportedBuild>0</MinimumSupportedBuild>
+    <ModVersion>1.2.0</ModVersion>
+    <ArchivedVersionPath></ArchivedVersionPath>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C9866F1-C2CA-425A-BA8B-D2E2EB1A354D}</ProjectGuid>
+    <RootNamespace>Auto_Liquid_Bottler</RootNamespace>
+    <AssemblyName>Auto_Liquid_Bottler</AssemblyName>
+    <PackageId>$(ModID)</PackageId>
+    <Version>$(ModVersion)</Version>
+    <AssemblyVersion>$(ModVersion)</AssemblyVersion>
+  </PropertyGroup>
+  
+</Project>
